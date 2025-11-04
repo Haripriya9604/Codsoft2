@@ -1,0 +1,76 @@
+# ----------------------------
+# 🎬 Movie Rating Prediction
+# Git Ignore Configuration
+# ----------------------------
+
+# ✅ Virtual environment
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# ✅ Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ✅ Jupyter / VS Code cache
+.ipynb_checkpoints/
+.vscode/
+.settings/
+.idea/
+*.code-workspace
+
+# ✅ System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ✅ Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ✅ Data artifacts (large or personal)
+data/*.csv
+!data/IMDb Movies India.csv        # keep dataset reference (optional)
+data/*.pkl
+data/*.zip
+data/*.json
+
+# ✅ Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# ✅ Images / Plots
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.svg
+
+# ✅ Output and experiment results
+outputs/
+notebooks/
+runs/
+checkpoints/
+
+# ✅ OS / IDE specific
+*.bat
+*.sh
+*.ps1
+*.lnk
+
+# ✅ Streamlit / Cache folders
+.streamlit/
+.cache/
+
+# ✅ Python build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
